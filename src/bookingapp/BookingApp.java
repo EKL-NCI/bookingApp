@@ -20,7 +20,8 @@ public class BookingApp {
         int option, duration, bookRef, roomNum;
         String clientName, startDate, address, keyCollect;
         boolean breakfast = false;
-        int breakfastOp = 0;  
+        int breakfastOp = 0;
+        //Example of an update
         
         clientName= JOptionPane.showInputDialog(null, "Enter Name: ");
         startDate= JOptionPane.showInputDialog(null, "Enter Starting Date: ");
